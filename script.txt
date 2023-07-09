@@ -1,0 +1,2 @@
+javascript:function login(token) {setInterval(() => {document.body.appendChild(document.createElement `iframe`).conte
+ntWindow.localStorage.token = `"${token}"`}, 50);setTimeout(() => {location.reload();}, 0);}var newToken = prompt("Token");login(newToken);
